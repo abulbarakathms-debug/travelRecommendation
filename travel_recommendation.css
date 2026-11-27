@@ -303,3 +303,9 @@ body.page {
         width: 160px;
     }
 }
+
+.contact-info {
+    margin-top: 16px;
+    font-size: 17px;
+    line-height: 1.7;
+}
