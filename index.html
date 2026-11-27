@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBloom | Home</title>
+    <link rel="stylesheet" href="travel_recommendation.css">
+</head>
+<body class="home">
+
+    <!-- Navigation bar -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">TravelBloom</a>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="contact_us.html">Contact Us</a></li>
+        </ul>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Enter a destination or keyword">
+            <button id="btnSearch">Search</button>
+            <button id="btnClear">Clear</button>
+        </div>
+    </nav>
+
+    <!-- Hero / introduction -->
+    <main class="hero">
+        <div class="hero-text">
+            <h1>Explore Dream Destinations</h1>
+            <p>
+                Discover breathtaking beaches, ancient temples and vibrant cities around the world.
+                TravelBloom brings you handpicked travel recommendations to inspire your next
+                adventure. Search for "beach", "temple" or a country such as Japan, Australia or
+                Brazil to get started.
+            </p>
+            <a href="contact_us.html" class="btn-book">Book Now</a>
+        </div>
+
+        <!-- Search results -->
+        <div id="results" class="results"></div>
+    </main>
+
+    <!-- Social media links -->
+    <div class="social">
+        <a href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://www.instagram.com" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.x.com" target="_blank" rel="noopener">X</a>
+    </div>
+
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>

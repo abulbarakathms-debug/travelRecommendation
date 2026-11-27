@@ -1,0 +1,87 @@
+{
+  "countries": [
+    {
+      "id": 1,
+      "name": "Australia",
+      "timeZone": "Australia/Sydney",
+      "cities": [
+        {
+          "name": "Sydney, Australia",
+          "imageUrl": "images/sydney.jpg",
+          "description": "A vibrant harbour city known for the iconic Sydney Opera House, Harbour Bridge and Bondi Beach."
+        },
+        {
+          "name": "Melbourne, Australia",
+          "imageUrl": "images/melbourne.jpg",
+          "description": "Australia's cultural capital, famous for its laneway cafes, street art, coffee and sporting events."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Japan",
+      "timeZone": "Asia/Tokyo",
+      "cities": [
+        {
+          "name": "Tokyo, Japan",
+          "imageUrl": "images/tokyo.jpg",
+          "description": "A dazzling mix of neon skyscrapers, ancient shrines, world-class food and efficient transport."
+        },
+        {
+          "name": "Kyoto, Japan",
+          "imageUrl": "images/kyoto.jpg",
+          "description": "Japan's former imperial capital, home to thousands of temples, traditional tea houses and gardens."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Brazil",
+      "timeZone": "America/Sao_Paulo",
+      "cities": [
+        {
+          "name": "Rio de Janeiro, Brazil",
+          "imageUrl": "images/rio.jpg",
+          "description": "Famous for Sugarloaf Mountain, Christ the Redeemer, samba and the beaches of Copacabana and Ipanema."
+        },
+        {
+          "name": "São Paulo, Brazil",
+          "imageUrl": "images/sao_paulo.jpg",
+          "description": "Brazil's largest city, with a huge food scene, museums, nightlife and a rich cultural mix."
+        }
+      ]
+    }
+  ],
+  "temples": [
+    {
+      "id": 1,
+      "name": "Angkor Wat, Cambodia",
+      "imageUrl": "images/angkor_wat.jpg",
+      "timeZone": "Asia/Phnom_Penh",
+      "description": "The largest religious monument in the world and a UNESCO World Heritage Site, built in the 12th century."
+    },
+    {
+      "id": 2,
+      "name": "Taj Mahal, India",
+      "imageUrl": "images/taj_mahal.jpg",
+      "timeZone": "Asia/Kolkata",
+      "description": "The white marble mausoleum in Agra, one of the New Seven Wonders of the World and a symbol of love."
+    }
+  ],
+  "beaches": [
+    {
+      "id": 1,
+      "name": "Bora Bora, French Polynesia",
+      "imageUrl": "images/bora_bora.jpg",
+      "timeZone": "Pacific/Tahiti",
+      "description": "A tropical island with a turquoise lagoon, overwater bungalows and white sandy beaches."
+    },
+    {
+      "id": 2,
+      "name": "Whitehaven Beach, Australia",
+      "imageUrl": "images/whitehaven.jpg",
+      "timeZone": "Australia/Brisbane",
+      "description": "Seven kilometres of pure white silica sand on Whitsunday Island, next to the Great Barrier Reef."
+    }
+  ]
+}
